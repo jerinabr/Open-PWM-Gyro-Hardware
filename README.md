@@ -1,8 +1,7 @@
-# Open_PWM_Gyro
-## Description
+# Description
 6-channel PWM gyro for fixed wing RC planes. Meant to be connected to an ELRS RX or other RX that outputs CRSF serial data.
 
-### Layer Stackup
+## Layer Stackup
 This is a 4-layer board with the following stackup:
 1. Signal + Power
 2. Ground
@@ -11,7 +10,7 @@ This is a 4-layer board with the following stackup:
 
 Both ground layers are solid ground pours and aren't shown in the images section below
 
-### Features
+## Features
 - USB-C for device firmware upgrade and configuration
 - SWD header for device programming and debugging
 - 2-color status LED (red, blue) controlled by the MCU
@@ -19,10 +18,10 @@ Both ground layers are solid ground pours and aren't shown in the images section
 - 6-axis IMU (3-axis accelerometer, 3-axis gyroscope)
 - Pin header for servo/ESC connections with one 3-pin group for serial data input from the RX
 
-### Firmware
+## Firmware
 Firmware for this gyro can be found [in this repo](https://github.com/jerinabr/Open_PWM_Gyro_Firmware)
 
-## BOM
+# BOM
 | Reference             | Qty | Value                       | Footprint                                                             | DigiKey Part #                |
 | --------------------- | --- | --------------------------- | --------------------------------------------------------------------- | ----------------------------- |
 | C1,C5,C6,C7,C8,C9,C12 | 7   | 0.1u                        | Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder             | 1276-6720-1-ND                |
@@ -46,21 +45,21 @@ Firmware for this gyro can be found [in this repo](https://github.com/jerinabr/O
 > [!NOTE]
 > J2 is a 3x7 2.54mm pitch pin header. This part can be replaced with three 7-pin headers or seven 3-pin headers or some other combination to save cost
 
-## Images
-### Schematic
-#### Page 1: Power + Connectors
+# Images
+## Schematic
+### Page 1: Power + Connectors
 ![Schematic Page 1: Power + Connectors](Images/Schematic_Pg_1.svg)
-#### Page 2: MCU + IMU
+### Page 2: MCU + IMU
 ![Schematic Page 2: MCU + IMU](Images/Schematic_Pg_2.svg)
-### PCB
-#### Top Layer
+## PCB
+### Top Layer
 ![PCB Top Layer](Images/PCB_Top.png)
-#### Bottom Layer
+### Bottom Layer
 ![PCB Bottom Layer](Images/PCB_Bottom.png)
-#### Top + Bottom Layer
+### Top + Bottom Layer
 ![PCB Top + Bottom Layer](Images/PCB_Top_Bottom.png)
-### 3D View
-#### Top
+## 3D View
+### Top
 ![3D Top View](Images/3D_Top.png)
-#### Bottom
+### Bottom
 ![3D Bottom View](Images/3D_Bottom.png)
