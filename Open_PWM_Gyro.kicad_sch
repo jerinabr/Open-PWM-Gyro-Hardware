@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CRSF_PWM_Gyro")
-		(rev "v1.0")
+		(rev "v2.0")
 	)
 	(lib_symbols)
 	(sheet

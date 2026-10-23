@@ -2923,7 +2923,7 @@
 		)
 		(uuid "7c441aa9-fca5-474e-aa73-caa3e5ae8330")
 	)
-	(text "3x7 ESC/Servo PWM + CRSF Header\nRow 1: PWM/CRSF\nRow 2: +5V\nRow 3: GND\n\nThis is one header so that KiCAD exports this as\none item in the BOM instead of seven separate headers\nbecause this is a single part"
+	(text "3x7 ESC/Servo PWM + CRSF Header\nRow 1: PWM / serial RX (CRSF, IBUS, SBUS)\nRow 2: +5V\nRow 3: GND\n\nThis is one header so that KiCAD exports this as\none item in the BOM instead of seven separate headers\nbecause this is a single part"
 		(exclude_from_sim no)
 		(at 201.676 33.782 0)
 		(effects
@@ -4178,8 +4178,8 @@
 			)
 		)
 	)
-	(global_label "CRSF_RX_To_MCU"
-		(shape output)
+	(global_label "RX_SERIAL"
+		(shape bidirectional)
 		(at 242.57 52.07 180)
 		(fields_autoplaced yes)
 		(effects
