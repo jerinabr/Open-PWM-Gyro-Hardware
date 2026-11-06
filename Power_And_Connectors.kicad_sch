@@ -2914,7 +2914,7 @@
 	)
 	(text "Power ORing to prevent USB\nfrom powering ESC/servos\nand vice versa"
 		(exclude_from_sim no)
-		(at 88.646 24.384 0)
+		(at 88.138 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2923,7 +2923,7 @@
 		)
 		(uuid "7c441aa9-fca5-474e-aa73-caa3e5ae8330")
 	)
-	(text "3x7 ESC/Servo PWM + CRSF Header\nRow 1: PWM/CRSF\nRow 2: +5V\nRow 3: GND\n\nThis is one header so that KiCAD exports this as\none item in the BOM instead of seven separate headers\nbecause this is a single part"
+	(text "3x7 ESC/Servo PWM + RX Serial\nRow 1: PWM/Serial\nRow 2: +5V\nRow 3: GND\n\nThis is one header so that KiCAD exports this as\none item in the BOM instead of seven separate headers\nbecause this is a single part"
 		(exclude_from_sim no)
 		(at 201.676 33.782 0)
 		(effects
@@ -2953,13 +2953,7 @@
 		(uuid "066d9754-aaf8-4c7f-94b8-814f13e63906")
 	)
 	(junction
-		(at 55.88 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0aacf774-7e09-4f2b-9433-44128631bcd9")
-	)
-	(junction
-		(at 76.2 78.74)
+		(at 78.74 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171feeca-2224-4ae9-8f66-d1d2a7c0cae1")
@@ -3061,12 +3055,6 @@
 		(uuid "9c617f84-5f03-41d1-9ff9-856b0e68d739")
 	)
 	(junction
-		(at 55.88 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6bde922-6853-4d03-8669-5d6a96e82c55")
-	)
-	(junction
 		(at 210.82 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3109,7 +3097,7 @@
 		(uuid "e985e5d9-64b1-4258-a493-f0b61ac653a1")
 	)
 	(junction
-		(at 83.82 78.74)
+		(at 86.36 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4cb942b-c055-4b8f-95a3-6632ece05783")
@@ -3158,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 55.88) (xy 55.88 53.34)
+			(xy 57.15 55.88) (xy 57.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3188,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 76.2 78.74)
+			(xy 78.74 48.26) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3208,17 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 60.96) (xy 55.88 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d3a503-22b3-4367-8519-0ab5e5253d5d")
-	)
-	(wire
-		(pts
-			(xy 76.2 78.74) (xy 83.82 78.74)
+			(xy 78.74 78.74) (xy 86.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3258,6 +3236,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 60.96) (xy 57.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e97ff05-e5b0-44c3-8321-8958f4ca100a")
+	)
+	(wire
+		(pts
 			(xy 119.38 128.27) (xy 132.08 128.27)
 		)
 		(stroke
@@ -3268,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 54.61 48.26)
+			(xy 72.39 48.26) (xy 54.61 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3288,16 +3276,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 60.96) (xy 57.15 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b03b25-17ba-42e1-8952-ba934b359afe")
-	)
-	(wire
-		(pts
 			(xy 154.94 68.58) (xy 154.94 78.74)
 		)
 		(stroke
@@ -3308,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 58.42) (xy 55.88 60.96)
+			(xy 57.15 58.42) (xy 57.15 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3325,16 +3303,6 @@
 			(type default)
 		)
 		(uuid "2e6b1e69-7ed2-4d98-81d8-4006f13dc954")
-	)
-	(wire
-		(pts
-			(xy 55.88 53.34) (xy 57.15 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35504607-045d-4552-97ea-6a327f19b7f3")
 	)
 	(wire
 		(pts
@@ -3378,7 +3346,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 96.52 78.74)
+			(xy 86.36 78.74) (xy 96.52 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3518,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 76.2 48.26)
+			(xy 77.47 48.26) (xy 78.74 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3618,23 +3586,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 53.34) (xy 55.88 53.34)
+			(xy 54.61 58.42) (xy 57.15 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0ff2c05-1da7-4601-be3f-d6242767a227")
-	)
-	(wire
-		(pts
-			(xy 54.61 58.42) (xy 55.88 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a18cc4d1-a17e-477c-bf34-743652ea8439")
+		(uuid "99a64e28-20b8-495c-8de1-0b84ee4ee530")
 	)
 	(wire
 		(pts
@@ -3688,7 +3646,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 76.2 78.74)
+			(xy 39.37 78.74) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3698,23 +3656,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 45.72) (xy 77.47 45.72)
+			(xy 54.61 45.72) (xy 80.01 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4459b14-e0a3-4885-9cde-b2e2cf19ebfd")
-	)
-	(wire
-		(pts
-			(xy 54.61 55.88) (xy 55.88 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b52fce2f-0a00-485e-aa0f-8dc65c13c75b")
 	)
 	(wire
 		(pts
@@ -3748,6 +3696,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 55.88) (xy 57.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5851649-51ef-4f29-8640-3719e9715237")
+	)
+	(wire
+		(pts
 			(xy 242.57 57.15) (xy 210.82 57.15)
 		)
 		(stroke
@@ -3758,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 83.82 78.74)
+			(xy 86.36 45.72) (xy 86.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3775,6 +3733,16 @@
 			(type default)
 		)
 		(uuid "c95e19b7-bfd8-4ac2-a489-8ddcb3cc9cae")
+	)
+	(wire
+		(pts
+			(xy 54.61 53.34) (xy 57.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c978bf30-aa7f-43e3-ae87-2f53b1b9a46a")
 	)
 	(wire
 		(pts
@@ -3878,7 +3846,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 82.55 45.72)
+			(xy 86.36 45.72) (xy 85.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4178,7 +4146,7 @@
 			)
 		)
 	)
-	(global_label "CRSF_RX_To_MCU"
+	(global_label "RX_Serial_To_MCU"
 		(shape output)
 		(at 242.57 52.07 180)
 		(fields_autoplaced yes)
@@ -4190,7 +4158,7 @@
 		)
 		(uuid "c2d815d5-c47b-43eb-8962-fa690fb2fc37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1959 52.07 0)
+			(at 222.5307 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4236,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 45.72 90)
+		(at 82.55 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4276,7 +4244,7 @@
 		(dnp no)
 		(uuid "014a5260-ed2b-4005-aa0d-a312166815dd")
 		(property "Reference" "R1"
-			(at 80.01 48.26 90)
+			(at 82.55 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4252,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 80.01 50.8 90)
+			(at 82.55 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4260,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4278,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4287,7 @@
 			)
 		)
 		(property "DigiKey Part #" "13-RC0402FR-135K1LCT-ND"
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4296,7 @@
 			)
 		)
 		(property "Mfg Part #" "RC0402FR-135K1L"
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4305,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4314,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4323,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 80.01 45.72 0)
+			(at 82.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4819,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 72.39 48.26 90)
+		(at 74.93 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4859,7 +4827,7 @@
 		(dnp no)
 		(uuid "44d2aef8-0544-4789-aa93-39d143362b1f")
 		(property "Reference" "R2"
-			(at 72.39 50.546 90)
+			(at 74.93 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +4835,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 72.39 53.086 90)
+			(at 74.93 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4843,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4861,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +4870,7 @@
 			)
 		)
 		(property "DigiKey Part #" "13-RC0402FR-135K1LCT-ND"
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +4879,7 @@
 			)
 		)
 		(property "Mfg Part #" "RC0402FR-135K1L"
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4888,7 @@
 			)
 		)
 		(property "MANUFACTURER" "YAGEO"
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4897,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4906,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 72.39 48.26 0)
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

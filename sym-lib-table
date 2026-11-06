@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_ST_STM32C5")(type "KiCad")(uri "${KIPRJMOD}/Project_Lib/Symbols/MCU_ST_STM32C5.kicad_sym")(options "")(descr ""))
+)

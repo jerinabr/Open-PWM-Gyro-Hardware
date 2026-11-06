@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "CRSF_PWM_Gyro"
+			(project "Open_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4"
 					(page "2")
 				)
@@ -86,7 +86,7 @@
 			)
 		)
 		(instances
-			(project "CRSF_PWM_Gyro"
+			(project "Open_PWM_Gyro"
 				(path "/01c12cb5-5cfe-484a-838c-9cbfa05ce5f4"
 					(page "3")
 				)
