@@ -1,3 +1,6 @@
+# This repo has been moved into the Open-PWM-Gyro organization. This current repo is read-only and no longer maintained. Use at your own risk.
+You can find the latest version of this repo in the organization [here](https://github.com/Open-PWM-Gyro/hardware).
+
 # Description
 6-channel PWM gyro for fixed wing RC planes. Meant to be connected to an ELRS RX or other RX that outputs CRSF serial data.
 
